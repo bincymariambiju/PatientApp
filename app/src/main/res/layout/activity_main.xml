@@ -1,0 +1,26 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#00aabb"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Patient"
+        android:id="@+id/addpatient"
+        android:layout_margin="5dp"
+        android:background="#424C85"
+        android:textColor="@color/white"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Patient"
+        android:id="@+id/searchpatient"
+        android:layout_margin="5dp"
+        android:background="#36536A"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>
